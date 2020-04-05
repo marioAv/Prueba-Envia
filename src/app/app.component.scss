@@ -1,0 +1,31 @@
+
+mat-toolbar{
+    .mat-toolbar-row{
+        max-width:1200px;
+        margin:auto;
+    }
+}
+
+.grid-container {
+    width:90%;
+    margin:auto;
+    max-width:1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 20px;
+}
+
+//TABLET MEDIA QUERY
+@media only screen and (max-width: 830px) {
+    .grid-container {
+        width:93%;
+    }
+  }
+
+//MOBILE MEDIA QUERY
+@media only screen and (max-width: 730px) {
+    .grid-container {
+        grid-template-columns: 100%;
+    }
+  }

@@ -1,0 +1,26 @@
+.order-success-wrapper{
+    padding:20px 0;
+
+        .check-icon{
+            display: block;
+            margin:auto;
+            font-size:55px;
+            text-align:center;
+            color:#46277C;
+        }
+        h1{
+            text-align: center;
+            font-weight:bold;
+            margin-top:20px;
+        }
+        p{
+            text-align:center;
+        }
+        button{
+            display:block;
+            margin:auto;
+            margin-top:25px;
+            width:245px;
+            border-radius:80px;
+        }
+}
